@@ -22,7 +22,7 @@ function App() {
   ]);
   return(
     <Container lg ='true'>
-      <Form fn={updateList}/>
+      <Form list={list} fn={updateList}/>
       <Person list={list}/>
     </Container>
     
